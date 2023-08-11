@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NITT Mess Selection</title>
+</head>
+<body>
+    <h1>NITT Mess Selection</h1>
+    <form action="/select_mess" method="post">
+        <label for="roll_number">Roll Number:</label>
+        <input type="text" id="roll_number" name="roll_number" required><br><br>
+        <label for="mess">Choose a Mess:</label>
+        <select id="mess" name="mess">
+            <option value="first_mess">First Mess</option>
+            <option value="second_mess">Second Mess</option>
+            <option value="third_mess">Third Mess</option>
+        </select><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
